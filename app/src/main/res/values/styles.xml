@@ -17,4 +17,9 @@
         <item name="android:layout_margin">3dp</item>
     </style>
 
+    <style name="tecla.apaisada">
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
 </resources>
