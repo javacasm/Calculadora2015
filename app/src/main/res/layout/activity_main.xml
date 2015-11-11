@@ -39,26 +39,30 @@
                 android:id="@+id/bt7"
                 style="@style/tecla"
                 android:layout_weight="1"
-                android:layout_margin="3dp" />
+                android:layout_margin="3dp"
+                android:onClick="teclanumerica" />
 
             <Button
                 style="@style/tecla"
                 android:text="@string/txt8"
                 android:id="@+id/bt8"
                 android:layout_weight="1"
-                android:layout_margin="3dp" />
+                android:layout_margin="3dp"
+                android:onClick="teclanumerica" />
 
             <Button
                 style="@style/tecla"
                 android:text="@string/txt9"
-                android:id="@+id/bt9" />
+                android:id="@+id/bt9"
+                android:onClick="teclanumerica" />
 
             <Button
                 style="@style/tecla"
                 android:text="@string/txtMas"
                 android:id="@+id/btMas"
                 android:layout_weight="1"
-                android:layout_margin="3dp" />
+                android:layout_margin="3dp"
+                android:onClick="teclanumerica" />
         </TableRow>
 
         <TableRow
@@ -68,22 +72,26 @@
             <Button
                 style="@style/tecla"
                 android:text="@string/txt4"
-                android:id="@+id/bt4" />
+                android:id="@+id/bt4"
+                android:onClick="teclanumerica" />
 
             <Button
                 style="@style/tecla"
                 android:text="@string/txt5"
-                android:id="@+id/bt5" />
+                android:id="@+id/bt5"
+                android:onClick="teclanumerica" />
 
             <Button
                 style="@style/tecla"
                 android:text="@string/txt6"
-                android:id="@+id/bt6" />
+                android:id="@+id/bt6"
+                android:onClick="teclanumerica" />
 
             <Button
                 style="@style/tecla"
                 android:text="@string/txtMenos"
-                android:id="@+id/btMenos" />
+                android:id="@+id/btMenos"
+                android:onClick="teclanumerica" />
         </TableRow>
 
         <TableRow
@@ -93,22 +101,26 @@
             <Button
                 style="@style/tecla"
                 android:text="@string/txt1"
-                android:id="@+id/button" />
+                android:id="@+id/button"
+                android:onClick="teclanumerica" />
 
             <Button
                 style="@style/tecla"
                 android:text="@string/txt2"
-                android:id="@+id/bt2" />
+                android:id="@+id/bt2"
+                android:onClick="teclanumerica" />
 
             <Button
                 style="@style/tecla"
                 android:text="@string/txt3"
-                android:id="@+id/bt3" />
+                android:id="@+id/bt3"
+                android:onClick="teclanumerica" />
 
             <Button
                 style="@style/tecla"
                 android:text="@string/txtPor"
-                android:id="@+id/btPor" />
+                android:id="@+id/btPor"
+                android:onClick="teclanumerica" />
         </TableRow>
 
         <TableRow
@@ -118,22 +130,26 @@
             <Button
                 style="@style/tecla"
                 android:text="@string/txt0"
-                android:id="@+id/bt0" />
+                android:id="@+id/bt0"
+                android:onClick="teclanumerica" />
 
             <Button
                 style="@style/tecla"
                 android:text="@string/txtPunto"
-                android:id="@+id/btPunto" />
+                android:id="@+id/btPunto"
+                android:onClick="teclanumerica" />
 
             <Button
                 style="@style/tecla"
                 android:text="@string/txtPorcent"
-                android:id="@+id/btPercent" />
+                android:id="@+id/btPercent"
+                android:onClick="teclanumerica" />
 
             <Button
                 style=        "@style/tecla"
                 android:text="@string/txtDividido"
-                android:id="@+id/btDividido" />
+                android:id="@+id/btDividido"
+                android:onClick="teclanumerica" />
 
         </TableRow>
 
@@ -145,19 +161,22 @@
                 style=        "@style/tecla"
                 android:text="@string/txtIgual"
                 android:id="@+id/btIgual"
-                android:layout_weight="10" />
+                android:layout_weight="10"
+                android:onClick="teclanumerica" />
 
             <Button
                 style=        "@style/tecla"
                 android:text="@string/txtAC"
                 android:id="@+id/btAC"
-                android:background="#d93030" />
+                android:background="#d93030"
+                android:onClick="teclanumerica" />
 
             <Button
                 style=        "@style/tecla"
                 android:text="@string/txtC"
                 android:id="@+id/btC"
-                android:background="#d93030" />
+                android:background="#d93030"
+                android:onClick="teclanumerica" />
 
         </TableRow>
     </TableLayout>
