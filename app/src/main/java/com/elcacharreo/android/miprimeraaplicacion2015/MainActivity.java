@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        TextView tvVisor=(TextView)findViewById(R.id.TextView);
+        TextView tvVisor=(TextView)findViewById(R.id.textView);
 
         String strValorAntiguo=tvVisor.getText().toString();
         if(strValorAntiguo.equals("0"))
