@@ -15,6 +15,31 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    float fOperando1;
+    float fOperando2;
+    int iOperador;
+
+    public void inicializacion()
+    {
+        fOperando1=0;
+        fOperando2=0;
+
+        iOperador=R.id.btAC;
+    }
+
+    public void teclaC(View v)
+    {
+        TextView tvVisor=(TextView)findViewById(R.id.textView);
+        tvVisor.setText(R.string.txtInicial);
+    }
+
+    public void teclaAC(View v)
+    {
+        inicializacion();
+        teclaC(v);
+
+    }
+
     public void teclanumerica(View v)
     {
 
