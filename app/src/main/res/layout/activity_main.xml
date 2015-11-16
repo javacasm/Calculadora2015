@@ -20,7 +20,8 @@
         android:layout_alignParentStart="true"
         android:textAlignment="textEnd"
         android:textSize="50sp"
-        android:background="#bbbbbb" />
+        android:background="#bbbbbb"
+        android:onClick="teclaOperador" />
 
     <TableLayout
         android:layout_width="match_parent"
@@ -62,7 +63,7 @@
                 android:id="@+id/btMas"
                 android:layout_weight="1"
                 android:layout_margin="3dp"
-                android:onClick="teclanumerica" />
+                android:onClick="teclaOperador" />
         </TableRow>
 
         <TableRow
@@ -91,7 +92,7 @@
                 style="@style/tecla"
                 android:text="@string/txtMenos"
                 android:id="@+id/btMenos"
-                android:onClick="teclanumerica" />
+                android:onClick="teclaOperador" />
         </TableRow>
 
         <TableRow
@@ -120,7 +121,7 @@
                 style="@style/tecla"
                 android:text="@string/txtPor"
                 android:id="@+id/btPor"
-                android:onClick="teclanumerica" />
+                android:onClick="teclaOperador" />
         </TableRow>
 
         <TableRow
@@ -143,13 +144,13 @@
                 style="@style/tecla"
                 android:text="@string/txtPorcent"
                 android:id="@+id/btPercent"
-                android:onClick="teclanumerica" />
+                android:onClick="teclaOperador" />
 
             <Button
                 style=        "@style/tecla"
                 android:text="@string/txtDividido"
                 android:id="@+id/btDividido"
-                android:onClick="teclanumerica" />
+                android:onClick="teclaOperador" />
 
         </TableRow>
 
@@ -162,7 +163,7 @@
                 android:text="@string/txtIgual"
                 android:id="@+id/btIgual"
                 android:layout_weight="10"
-                android:onClick="teclanumerica" />
+                android:onClick="teclaIgual" />
 
             <Button
                 style=        "@style/tecla"
