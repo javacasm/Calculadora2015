@@ -45,12 +45,14 @@ public class MainActivity extends AppCompatActivity {
 
         Button botonPulsado= (Button)v;  // Casting
 
+
         String strTextoBoton=botonPulsado.getText().toString();
+        /*
         String strMensajeInicial="Has pulsado la tecla: ";
         String strMensaje=strMensajeInicial+strTextoBoton;
 
         Toast.makeText(this,strMensaje,Toast.LENGTH_LONG).show();
-
+        */
 
 
         TextView tvVisor=(TextView)findViewById(R.id.textView);
@@ -62,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         try {
-            float operando1 = Float.valueOf(strValorNuevo);
+        //    float operando1 = Float.valueOf(strValorNuevo);
 
             tvVisor.setText(strValorNuevo);
         }
