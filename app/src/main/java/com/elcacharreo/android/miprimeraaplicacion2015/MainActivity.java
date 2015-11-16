@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 fResultado=fOperando1/fOperando2;
                 break;
             case R.id.btPercent:
-                fResultado=fOperando1*100/fOperando2;
+                fResultado=fOperando1*fOperando2/100;
                 break;
 
         }
