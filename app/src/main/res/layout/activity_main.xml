@@ -169,14 +169,14 @@
                 android:text="@string/txtAC"
                 android:id="@+id/btAC"
                 android:background="#d93030"
-                android:onClick="teclanumerica" />
+                android:onClick="teclaAC" />
 
             <Button
                 style=        "@style/tecla"
                 android:text="@string/txtC"
                 android:id="@+id/btC"
                 android:background="#d93030"
-                android:onClick="teclanumerica" />
+                android:onClick="teclaC" />
 
         </TableRow>
     </TableLayout>
