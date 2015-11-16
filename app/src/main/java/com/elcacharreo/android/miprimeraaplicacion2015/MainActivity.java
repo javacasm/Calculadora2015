@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void teclaOperador(View v)
     {
+        // TODO: Operadores
         // Recuperamos el contenido del visor
         TextView tvVisor=(TextView)findViewById(R.id.textView);
         String strVisor=tvVisor.getText().toString();
@@ -54,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void teclaIgual(View v)
     {
+        // TODO: problemas 2 puntos
+
+
         TextView tvVisor=(TextView)findViewById(R.id.textView);
         String strVisor=tvVisor.getText().toString();
         fOperando2=Float.valueOf(strVisor);
@@ -87,9 +91,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     public void teclanumerica(View v)
     {
 
+        // TODO: Borrar resultado al empezar
         Button botonPulsado= (Button)v;  // Casting
 
         String strTextoBoton=botonPulsado.getText().toString();
@@ -119,19 +125,6 @@ public class MainActivity extends AppCompatActivity {
         {
             Toast.makeText(this,"Tecla incorrecta:"+strTextoBoton,Toast.LENGTH_LONG).show();
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
