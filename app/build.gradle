@@ -2,11 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "22.0.1"
+    buildToolsVersion '23.0.2'
     defaultConfig {
         applicationId "com.elcacharreo.android.miprimeraaplicacion2015"
         minSdkVersion 10
-        targetSdkVersion 23
+        targetSdkVersion 10
         versionCode 1
         versionName "1.0"
     }
