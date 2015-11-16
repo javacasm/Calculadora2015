@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         String strVisor=tvVisor.getText().toString();
         fOperando2=Float.valueOf(strVisor);
 
-        float fResultado;
+        float fResultado=0;
 
         switch (iOperador)
         {
@@ -80,7 +80,11 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-        tvVisor.setText("fResultado");
+        String strResultado=Float.toString(fResultado);
+
+        tvVisor.setText(strResultado);
+
+
     }
 
     public void teclanumerica(View v)
