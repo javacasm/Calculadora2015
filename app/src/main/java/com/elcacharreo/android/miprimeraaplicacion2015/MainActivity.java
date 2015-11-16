@@ -52,6 +52,37 @@ public class MainActivity extends AppCompatActivity {
         iOperador=v.getId(); // R.id.boton
     }
 
+    public void teclaIgual(View v)
+    {
+        TextView tvVisor=(TextView)findViewById(R.id.textView);
+        String strVisor=tvVisor.getText().toString();
+        fOperando2=Float.valueOf(strVisor);
+
+        float fResultado;
+
+        switch (iOperador)
+        {
+            case R.id.btMas:
+                fResultado=fOperando1+fOperando2;
+                break;
+            case R.id.btMenos:
+                fResultado=fOperando1-fOperando2;
+                break;
+            case R.id.btPor:
+                fResultado=fOperando1*fOperando2;
+                break;
+            case R.id.btDividido:
+                fResultado=fOperando1/fOperando2;
+                break;
+            case R.id.btPercent:
+                fResultado=fOperando1*100/fOperando2;
+                break;
+
+        }
+
+        tvVisor.setText("fResultado");
+    }
+
     public void teclanumerica(View v)
     {
 
@@ -68,8 +99,10 @@ public class MainActivity extends AppCompatActivity {
         TextView tvVisor=(TextView)findViewById(R.id.textView);
 
         String strValorAntiguo=tvVisor.getText().toString();
+
         if(strValorAntiguo.equals("0"))
         {strValorAntiguo=""; }
+
         String strValorNuevo=strValorAntiguo+strTextoBoton;
 
 
