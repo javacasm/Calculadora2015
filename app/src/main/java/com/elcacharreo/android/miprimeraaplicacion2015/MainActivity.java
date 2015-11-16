@@ -40,11 +40,22 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void teclaOperador(View v)
+    {
+        // Recuperamos el contenido del visor
+        TextView tvVisor=(TextView)findViewById(R.id.textView);
+        String strVisor=tvVisor.getText().toString();
+        fOperando1=Float.valueOf(strVisor);
+
+        teclaC(v);  // Borramos el visor
+
+        iOperador=v.getId(); // R.id.boton
+    }
+
     public void teclanumerica(View v)
     {
 
         Button botonPulsado= (Button)v;  // Casting
-
 
         String strTextoBoton=botonPulsado.getText().toString();
         /*
@@ -53,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this,strMensaje,Toast.LENGTH_LONG).show();
         */
-
 
         TextView tvVisor=(TextView)findViewById(R.id.textView);
 
